@@ -1,1 +1,1 @@
-Сервис предназначен для администрирования прав к ui элементам plazius.biz
+A simple service for restricting access to features
