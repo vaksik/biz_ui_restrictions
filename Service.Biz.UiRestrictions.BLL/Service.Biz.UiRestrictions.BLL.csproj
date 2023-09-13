@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Service.Biz.UiRestrictions.DAL\Service.Biz.UiRestrictions.DAL.csproj" />
+      <ProjectReference Include="..\Service.Biz.UiRestrictions.Dto\Service.Biz.UiRestrictions.Dto.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Api.Biz.Contracts.Http" Version="1.0.334" />
+      <PackageReference Include="FluentValidation" Version="11.5.2" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="7.0.4" />
+      <PackageReference Include="Module.Amqp" Version="1.0.99" />
+      <PackageReference Include="Service.Tariffs.Amqp.Contracts" Version="1.0.11-RKOFFICE-19420" />
+    </ItemGroup>
+
+</Project>

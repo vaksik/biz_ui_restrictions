@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Module.HttpClient" Version="2.0.6" />
+      <PackageReference Include="Service.Biz.UiRestrictions.Dto" Version="23.5.31.9-RKOFFICE-19415" />
+    </ItemGroup>
+
+</Project>

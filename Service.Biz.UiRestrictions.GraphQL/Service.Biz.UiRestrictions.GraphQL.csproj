@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Module.Gql.Federation" Version="1.0.7" />
+      <PackageReference Include="Module.Gql.Federation.AspNetCore" Version="1.0.26" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Service.Biz.UiRestrictions.BLL\Service.Biz.UiRestrictions.BLL.csproj" />
+    </ItemGroup>
+
+</Project>
